@@ -16,8 +16,8 @@ Now, take a look at the articles :
 
 ## Python
 
-<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>Python Course</h3></td><td><a href="programming/python-course.md">python-course.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>Python Course</h3></td><td><a href="../programming/python-course.md">python-course.md</a></td></tr></tbody></table>
 
 ## Rust
 
-<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>Rust Tutorial</h3></td><td><a href="programming/rust-tutorial.md">rust-tutorial.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>Rust Tutorial</h3></td><td><a href="../programming/rust-tutorial.md">rust-tutorial.md</a></td></tr></tbody></table>

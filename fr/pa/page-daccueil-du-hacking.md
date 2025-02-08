@@ -1,7 +1,7 @@
 ---
-description: Page d'accueil de la partie hacking
 icon: house
-cover: .gitbook/assets/image-2.webp
+description: Page d'accueil de la partie hacking
+cover: ../.gitbook/assets/image-2.webp
 coverY: 0
 ---
 

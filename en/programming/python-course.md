@@ -1,6 +1,6 @@
 ---
-description: All links to the Python course's chapters
 icon: python
+description: All links to the Python course's chapters
 layout:
   title:
     visible: true
@@ -36,14 +36,14 @@ Finally, the [Projects](python-course.md#e.-projects) section is there to give y
 
 ## C. Advance
 
-<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>1. GUI Programming</h3></td><td></td></tr><tr><td><h3>2. Multithreading</h3></td><td></td></tr><tr><td><h3>3. Task Automation</h3></td><td></td></tr><tr><td><h3>4. AI &#x26; LLM</h3></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>1. GUI Programming</h3></td><td></td></tr><tr><td><h3>2. Multithreading</h3></td><td></td></tr><tr><td><h3>3. Network Programming</h3></td><td></td></tr><tr><td><h3>4. Task Automation</h3></td><td></td></tr><tr><td><h3>5. AI &#x26; LLM</h3></td><td></td></tr></tbody></table>
 
 ## D. Libraries
 
 
 
-<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>1. Math</h3></td><td></td></tr><tr><td><h3>2. OS</h3></td><td></td></tr><tr><td><h3>3. Datetime</h3></td><td></td></tr><tr><td><h3>4. JSON</h3></td><td></td></tr><tr><td><h3>5. Random</h3></td><td></td></tr><tr><td><h3>6. Requests</h3></td><td></td></tr><tr><td><h3>7. Numpy</h3></td><td></td></tr><tr><td><h3>8. Scrapy</h3></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>1. Math</h3></td><td></td></tr><tr><td><h3>2. OS</h3></td><td></td></tr><tr><td><h3>3. Datetime</h3></td><td></td></tr><tr><td><h3>4. JSON</h3></td><td></td></tr><tr><td><h3>5. Random</h3></td><td></td></tr><tr><td><h3>6. Numpy</h3></td><td></td></tr><tr><td><h3>7. Scrapy</h3></td><td></td></tr></tbody></table>
 
 ## E. Projects
 
-<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>1. Chess</h3></td><td></td></tr><tr><td><h3>2. Conway's Game of Life</h3></td><td></td></tr><tr><td><h3>3. Audio Morse Translator</h3></td><td></td></tr><tr><td><h3>4. The Bank</h3></td><td></td></tr><tr><td><h3>5. Motus</h3></td><td></td></tr><tr><td><h3>6. Hangman Game</h3></td><td></td></tr><tr><td><h3>7. Quiz Game</h3></td><td></td></tr><tr><td><h3>8. π - an Universe Number</h3></td><td></td></tr><tr><td><h3>9. Hashfile formating system</h3></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>1. Chess</h3></td><td></td></tr><tr><td><h3>2. Conway's Game of Life</h3></td><td></td></tr><tr><td><h3>3. Audio Morse Translator</h3></td><td></td></tr><tr><td><h3>4. The Bank</h3></td><td></td></tr><tr><td><h3>5. Motus</h3></td><td></td></tr><tr><td><h3>6. Hangman Game</h3></td><td></td></tr><tr><td><h3>7. Messagery</h3></td><td></td></tr><tr><td><h3>8. Quiz Game</h3></td><td></td></tr><tr><td><h3>9. π - an Universe Number</h3></td><td></td></tr><tr><td><h3>10. Timer</h3></td><td></td></tr><tr><td><h3>11. Hashfile formating system</h3></td><td></td></tr></tbody></table>

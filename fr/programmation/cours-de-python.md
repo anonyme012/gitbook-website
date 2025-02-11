@@ -13,7 +13,20 @@ La section [Avancé](cours-de-python.md#c.-avance) montre des cas d'utilisation 
 
 La section [Bibliothèques](cours-de-python.md#d.-bibliotheques) vise à fournir un guide des fonctions les plus utilisées et d'autres liens vers diverses bibliothèques, dont la plupart font partie de la bibliothèque standard Python.
 
-Enfin, la section [Projets](cours-de-python.md#e.-projets) est là pour vous donner des idées de pratique de la programmation. Elles comprendront un énoncé clair et détaillé et la solution, souvent avec des commentaires et une procédure pas à pas.
+Enfin, la section [Projets](cours-de-python.md#e.-projets) est là pour vous donner des idées de mini-projets pour pratiquer et vous entraîner à la programmation. Elles comprendront un énoncé clair et détaillé et la solution, souvent avec des commentaires et une procédure pas à pas.
+
+## Prérequis
+
+Pour pouvoir suivre ce cours dans des conditions optimales, je vous conseille de réunir tous ces prérequis maintenant :
+
+* Avoir Python 3 installé sur votre ordinateur (ou votre calculatrice :wink:)
+* Avoir un éditeur de code (VS Code ou Notepad++ par exemple)
+* Savoir exécuter un programme Python
+* Savoir ouvrir un terminal / ligne de commande
+* Savoir utiliser `pip` / `pip3`&#x20;
+* Optionnel : configurer un `venv` (environnement virtuel Python)
+
+Pour en savoir plus sur la procédure à suivre, lisez cette article : [pyco-prerequis.md](../pr/pyco-prerequis.md "mention")
 
 ## A. Notions de Base
 

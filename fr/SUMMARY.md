@@ -19,6 +19,7 @@
 
 ## Programmation Raw <a href="#pr" id="pr"></a>
 
+* [Prérequis](pr/pyco-prerequis.md)
 * [Cours de Python - Bases](pr/pyco-a1.md)
 * [Cours de Python - Contrôle du flux & Boucles](pr/pyco-a2.md)
 * [Cours de Python - Types d'Objets](pr/pyco-a3.md)

@@ -6,7 +6,7 @@ icon: circle-play
 
 ## Opérateurs mathématiques
 
-Étant la base de l'informatique, nous allons commencer par un peu de mathématiques.
+Car elles sont la base de l'informatique, nous allons commencer par un peu de mathématiques.
 
 Voici par ordre de **priorité décroissante**, les opérateurs arithmétiques en Python :
 
@@ -28,11 +28,11 @@ Les parenthèses restent prioritaires comme en mathématiques et il faut garder 
 
 L'informatique consiste à traiter des données de types divers. Les développeurs de Python ont donc prévu différents types d'objets.
 
-Un chapitre de ce cours est consacré à ça. Vous pouvez le retrouver ici :[pyco-a3.md](pyco-a3.md "mention")
+Un chapitre de ce cours est consacré à ça. Vous pouvez le retrouver ici : [pyco-a3.md](pyco-a3.md "mention")
 
 En attendant on va voir les plus simples et les plus utilisés :&#x20;
 
-<table><thead><tr><th width="104">Nom</th><th width="405">Description</th><th>Exemple</th></tr></thead><tbody><tr><td><code>str</code></td><td>Chaîne de caractères (Unicode)</td><td><code>"Bonjour"</code> ou <code>'Au revoir'</code></td></tr><tr><td><code>int</code></td><td>Nombre entier signé (peut être négatif)</td><td><code>38</code></td></tr><tr><td><code>float</code></td><td>Nombre décimal signé</td><td><code>4.49529</code></td></tr><tr><td><code>bool</code></td><td>Valeur booléenne / binaire (ne peut prendre que 2 valeurs : vrai ou faux)</td><td><code>True</code> ou <code>False</code></td></tr></tbody></table>
+<table><thead><tr><th width="104">Nom</th><th width="405">Description</th><th>Exemple</th></tr></thead><tbody><tr><td><code>str</code></td><td>Chaîne de caractères (Unicode)</td><td><code>"Bonjour"</code> ou <code>'Au revoir'</code></td></tr><tr><td><code>int</code></td><td>Nombre entier signé (+ ou -)</td><td><code>38</code></td></tr><tr><td><code>float</code></td><td>Nombre décimal signé</td><td><code>4.49529</code></td></tr><tr><td><code>bool</code></td><td>Valeur booléenne (ne peut prendre que 2 valeurs : vrai ou faux)</td><td><code>True</code> ou <code>False</code></td></tr></tbody></table>
 
 ## Variables
 
@@ -57,6 +57,7 @@ Les noms de variables obéissent à des normes bien précises :
 * Ils ne peuvent contenir que des lettres, des chiffres et l'underscore (`_`)
 * Ils ne peuvent pas commencer par un chiffre
 * Ils sont sensibles à la casse (différence entre les majuscules et les minuscules)
+* Attention : les caractères accentuées (é, à, ù, ï, etc.) ne sont pas considérés comme des lettres
 
 #### Conventions d'écriture
 
@@ -92,12 +93,12 @@ Cette fonction peut accueillir plusieurs arguments de tous les types (pas que `s
 print("Bonjour") # Bonjour
 a = 12.36
 b = False
-print("Au revoir" a, b) # Au revoir 12.36 False
+print("Au revoir", a, b) # Au revoir 12.36 False
 ```
 
 #### `input()`
 
-Cette fonction prends l'entrée de l'utilisateur et la convertit en chaîne de caractères.
+Cette fonction prend l'entrée de l'utilisateur et la retourne sous forme de chaîne de caractères.
 
 ```python
 age_utilisateur = input("Quel âge avez-vous ? ") # Stockera l'entrée dans la
@@ -113,16 +114,16 @@ prenom = input("Tapez votre prénom : ") # Cela affichera "Tapez votre prénom :
                                         # ensuite mis dans la variable "prenom"
 
 print("Bonjour,", prenom, "!") # Affichera la chaîne de caractères 
-                                   # passée en argument
+                               # passée en argument
 
-# Si j'ai tapé "anonyme012", alors le programme écrira "Bonjour, anonoyme012 !"
+# Si j'ai tapé "anonyme012", alors le programme écrira "Bonjour, anonyme012 !"
 ```
 
 ## Commentaires
 
 Les commentaires n'ont pas d'utilité réelle pour un ordinateur. Ils servent à expliquer le fonctionnement d'un morceau de code complexe, expliquer l'utilité d'un variable ou indiquer l'auteur du script.
 
-C'est une très bonne pratique à adopter des ces premiers programmes. Pensez à un autre développeur ou même à vous, en train de vous interroger sur le fonctionnement d'un extrait de code problématique à modifier. Bien que c'est légèrement chronophage à l'écriture initiale, ça vous fera économiser des heures de maintenance
+C'est une très bonne pratique à adopter des vos premiers programmes. Pensez à un autre développeur ou même à vous, en train de vous interroger sur le fonctionnement d'un extrait de code problématique à modifier. Bien que c'est légèrement chronophage à l'écriture initiale, ça vous fera économiser des heures de maintenance.
 
 #### Commentaire de ligne
 
@@ -141,12 +142,12 @@ C'est une très bonne pratique à adopter des ces premiers programmes. Pensez à
 #### Commentaire avec du code
 
 ```python
-age_utilisateur = 2025 - date_de_naissance # Cette ligne crée une variable 
+age_utilisateur = 2025 - date_de_naissance # Cette ligne calcule l'âge de l'utilisateur
 ```
 
 ## Concaténation & réplication de chaînes de caractères
 
-Nous allons voir les méthodes de manipulation de chaînes de caractères les plus simples : la concaténation et la réplication. Pour cela, on utilise simplement les opérateurs mathématiques `+` et `*` et ça fonctionne aussi avec des variables.
+Nous allons voir les méthodes de manipulation de chaînes de caractères les plus simples : la concaténation et la réplication. Pour cela, on utilise simplement les opérateurs mathématiques `+` et `*`. Ça fonctionne aussi avec des variables.
 
 ```python
 formule_1 = "Bonjour"
@@ -170,6 +171,10 @@ Cet opérateur assigne une valeur tout en la renvoyant.
 
 ```python
 print(texte := "Salut !") # affiche "Salut !"
-print(texte)              # affiche encore "Salut !" ce qui montre
-                          # que la variable a bien été assignée
+
+print(texte) # affiche encore "Salut !" ce qui montre
+             # que la variable a bien été assignée
+
+print(msg = "Voici mon message") # Cela retournera soit une erreur, soit une 
+                                 # valeur booléenne si la variable existe déjà
 ```

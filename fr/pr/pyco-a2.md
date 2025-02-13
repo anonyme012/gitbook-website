@@ -14,7 +14,7 @@ Ne confondez pas le symbole `=` qui permet d'assigner une variable et l'opérate
 
 ## Opérateurs booléens
 
-Il existe trois opérateurs booléens : `and`, `or` et `not`. Respectivement, en français, "_et_", "_ou_" et "_pas_".
+Il existe trois opérateurs booléens : `and`, `or` et `not`. Respectivement, en français, _"et"_, _"ou"_ et _"pas"_.
 
 Voici quelques exemples en y ajoutant les [opérateurs de comparaison](pyco-a2.md#operateurs-de-comparaison) et les [opérateurs mathématiques](pyco-a1.md#operateurs-mathematiques) :
 
@@ -26,12 +26,12 @@ Voici quelques exemples en y ajoutant les [opérateurs de comparaison](pyco-a2.m
 ```
 
 {% hint style="info" %}
-Le mot-clé `or` ne signifie pas "_ou_" mais "_et / ou_".
+Le mot-clé `or` ne signifie pas _"ou"_ mais _"et / ou"_.
 {% endhint %}
 
 ## Mots clés `if`, `else` et `elif`
 
-Le mot clé `if` vérifie si l'expression fournie est vraie (condition remplie). Si oui, le code indenté est exécuté. Si ce n'est pas le cas, les instructions indentées après `else` sont exécutées. Pour finir, `elif` peut être placé entre les deux pour faire office de "_sinon si_". Il peut y en avoir plusieurs.
+Le mot clé `if` vérifie si l'expression fournie est vraie (condition remplie). Si oui, le code indenté est exécuté. Si ce n'est pas le cas, les instructions indentées après `else` sont exécutées. Pour finir, `elif` peut être placé entre les deux pour faire office de _"sinon si"_. Il peut y en avoir plusieurs.
 
 <pre class="language-python"><code class="lang-python"># On demande à l'utilisateur de créer un nom.
 username = input("Créer votre nom d'utilisateur.")
@@ -57,7 +57,7 @@ Comprenez bien que la 1ère instruction `elif` ne s'exécutera que si `if` éval
 
 ## Opérateur ternaire
 
-L'opérateur ternaire est un manière de compacter un "_if else_" en une seule ligne. Il retourne une valeur qui peut être affichée ou assignée à une variable par exemple. Il a une construction légèrement différente que l'on va voir à l'aide de cet extrait de code.
+L'opérateur ternaire est un manière de compacter un _"if else"_ en une seule ligne. Il retourne une valeur qui peut être affichée ou assignée à une variable par exemple. Il a une construction légèrement différente que l'on va voir à l'aide de cet extrait de code.
 
 ```python
 age = input("Entrez votre âge : ")
@@ -72,14 +72,14 @@ else :
 print("enfant" if age < 18 else "adulte")
 ```
 
-Il ne supporte pas nativement le `elif` même si on peut le faire en les enchaînant.
+Il ne supporte pas nativement le `elif` même si on peut l'utiliser en enchaînant plusieurs opérateurs ternaires.
 
 ```python
 age = input("Entrez votre âge : ")
 
 if age < 13 :
     categorie = "enfant"
-elif age < 18
+elif age < 18 :
     categorie = "adolescent"
 else :
     categorie = "adulte"
@@ -91,7 +91,7 @@ categorie = 'enfant' if age < 13 else 'adolescent' if age < 18 else 'adulte'
 
 ## Mots clés `match` et `case`
 
-Le contrôle de flux "_switch-case_" sert à faire une action selon la valeur d'une variable de manière rapide et efficace.
+Le contrôle de flux _"switch-case"_ sert à faire une action selon la valeur d'une variable de manière rapide et efficace.
 
 Prenons l'exemple des codes de statut du protocole HTTP.
 
@@ -114,7 +114,7 @@ match response_code : # Cet extrait de code affiche la signification du code
 ```
 
 {% hint style="warning" %}
-Sachez que dès qu'une condition est satisfaite, on saute tout le code indenté qui suit `match`.
+Gardez à l'esprit que dès qu'une condition est satisfaite, on saute tout le code indenté qui suit `match`.
 {% endhint %}
 
 On peut modifier cet extrait en utilisant deux fonctionnalités :
@@ -133,7 +133,7 @@ match response_code:
     case 500 | 502 :
         print("Erreur Interne du Serveur")
     case _ :
-        print("Invalid Code")
+        print("Code Invalide")
 ```
 
 {% hint style="info" %}

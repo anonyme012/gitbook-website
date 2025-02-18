@@ -26,6 +26,19 @@ The [Libraries](python-course.md#d.-libraries) section aims to provide a guide t
 
 Finally, the [Projects](python-course.md#e.-projects) section is there to give you ideas for programming practice. They will include a clear and detailed statement and the solution, often with comments and walkthrough.
 
+## Prerequisites
+
+To be able to follow this course in good conditions, I advise you to gather all these prerequisites now :
+
+* Have Python 3 installed on your computer (or your calculator 😉)
+* Have a code editor (VS Code or Notepad++ for example)
+* Know how to run a Python program
+* Know how to open a terminal / command line
+* Know how to use `pip` / `pip3`
+* Optional: configure a `venv` (Python virtual environment)&#x20;
+
+To learn more about the procedure to follow, read this article : [prerequisites.md](../pr/prerequisites.md "mention")
+
 ## A. Basics
 
 <table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td><h3>1. Basics</h3></td><td><a href="../pr/pyco-a1.md">pyco-a1.md</a></td></tr><tr><td><h3>2. Control Flow &#x26; Loops</h3></td><td><a href="../pr/pyco-a2.md">pyco-a2.md</a></td></tr><tr><td><h3>3. Object Types</h3></td><td><a href="../pr/pyco-a3.md">pyco-a3.md</a></td></tr><tr><td><h3>4. Functions</h3></td><td><a href="../pr/pyco-a4.md">pyco-a4.md</a></td></tr><tr><td><h3>5. Keywords &#x26; Context</h3></td><td><a href="../pr/pyco-a5.md">pyco-a5.md</a></td></tr></tbody></table>

@@ -19,6 +19,7 @@
 
 ## Programming Raw <a href="#pr" id="pr"></a>
 
+* [Prerequisites](pr/prerequisites.md)
 * [Python Course - Basics](pr/pyco-a1.md)
 * [Python Course - Control Flow & Loops](pr/pyco-a2.md)
 * [Python Course - Object Types](pr/pyco-a3.md)
